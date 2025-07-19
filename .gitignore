@@ -1,0 +1,97 @@
+# Arquivos gerados pelo sistema operacional
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Pastas e arquivos de build/saída
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+build/
+Build/
+dist/
+Dist/
+*.dll # Ignora todas as DLLs, exceto aquelas que podem ser parte do repositório (raro)
+*.exe # Ignora todos os executáveis
+*.pdb # Arquivos de debug
+*.exe.config # Arquivos de configuração de executáveis
+*.manifest
+*.log
+*.bak
+*.suo # Arquivos de opções de solução do Visual Studio
+*.user # Arquivos de configurações de usuário do Visual Studio
+*.config.user # Arquivos de configurações de usuário baseados em .config
+*.cache
+*.ncb
+*.aps
+*.bsc
+*.sbr
+*.obj
+*.resources
+*.designer.cs.meta # Arquivos meta gerados pelo Unity com C#
+*.csproj.user # Arquivos de usuário de projeto
+*.vbproj.user # Arquivos de usuário de projeto VB.NET
+
+# Pacotes NuGet
+packages/ # Se você ainda usa packages.config
+*.nupkg # Pacotes NuGet gerados
+.nuget/NuGetScratch/ # Arquivos temporários do NuGet
+## Diretórios de restauração de pacotes (geralmente dentro de 'obj')
+## Ex: .NET 6+ usa 'obj/project.assets.json'
+project.assets.json
+project.lock.json # Arquivo de bloqueio de dependências (mais antigo)
+
+# Ferramentas de Teste
+TestResults/
+*.trx # Arquivos de resultados de teste
+.vsix/ # Pacotes VSIX (extensões do Visual Studio)
+
+# Pastas de IDE e Ferramentas de Desenvolvimento
+.vs/ # Pasta oculta do Visual Studio para configurações de solução (VS 2017+)
+.vscode/ # Pasta de configuração do VS Code (ignorar apenas se não for compartilhada intencionalmente)
+*.sln.docstates # Document states for Visual Studio
+*.vspscc # Visual Studio Source Code Control
+*.vssscc # Visual Studio Source Code Control
+*.csproj.opendata # VS 2022+ files
+*.vcproj.filters # C++ filters
+*.dbmdl # Local SQL Database Model files
+*.jfm # Visual Studio profiler
+*.opendata # Visual Studio files
+*.testsettings # Visual Studio test settings
+*.rdc # Visual Studio remote debugging
+*.publishproj.user # Arquivos de usuário de projeto de publicação
+*.publish.xml # Arquivos de publicação
+*.deploy # Arquivos de deploy
+*.tdl # Test Definition Language
+*.mdf
+*.ldf
+
+# JetBrains Rider
+.idea/ # <-- ADICIONADO AQUI: Pasta de configurações do Rider
+*.iml # Módulos IntelliJ/Rider
+*.ipr
+*.iws
+
+# Arquivos de log
+*.log
+
+# Arquivos de configurações de usuário sensíveis (se existirem)
+# Este é um exemplo, ajuste conforme necessário
+# myappsettings.Development.json # Se você tiver settings locais não versionadas
+
+# Docker
+Dockerfile.orig
+docker-compose.yml.orig
+
+# Dependências de ferramentas como Node.js (se usar Web com .NET)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de recuperação e backup
+*.~
+*.bak
+*.tmp
